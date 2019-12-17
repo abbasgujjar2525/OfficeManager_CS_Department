@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} | Complaint{% endblock %}
+{% block content %}
+
+<section id="complaint" class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card">
+            <div class="card-header bg-primary text-white">
+              <h4 class="text-center">
+                Register your Complaint</h4>
+            </div>
+            <div class="card-body">
+                <!-- Alerts -->
+                {% include 'partials/_alerts.html' %}
+
+                <form action="{% url 'complaints' %}" method="POST">
+                    {% csrf_token %}
+
+                <div class="form-group">
+                <label for="first_name">First Name</label>
+                  <input type="text" name="first_name" class="form-control"
+                         {% if user.is_authenticated %}
+                             value="{{ user.first_name }}"
+                          {% endif %}
+                         required>
+
+                <label for="last_name">Last Name</label>
+                  <input type="text" name="last_name" class="form-control"
+                         {% if user.is_authenticated %}
+                             value="{{ user.last_name }}"
+                          {% endif %}
+                         required>
+
+                  <label for="username">Username</label>
+                  <input type="text" name="username" class="form-control"
+                         {% if user.is_authenticated %}
+                             value="{{ user.username }}"
+                          {% endif %}
+                         required>
+
+                </div>
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <select name="title" class="form-control">
+                                    <option selected="true" disabled="disabled">Compalaints Title</option>
+                                    {% for key,value in complaint_choices.items %}
+                                        <option value="{{ key }}"
+                                                {% if key == values.price %}
+                                                selected
+                                                {% endif %}
+
+                                        >{{ value }}</option>
+                                    {% endfor %}
+                                </select>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea name="description" class="form-control" rows="10" cols="65" placeholder="Write your complaint here ..." required></textarea>
+                </div>
+
+                <input type="submit" value="Register" class="btn btn-primary btn-block">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}

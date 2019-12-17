@@ -1,0 +1,37 @@
+#header {
+    height : 60px;
+    background: #10284e;
+    color : #fff;
+}
+
+div#branding h1{
+    color : white;
+    background-color: #10284e;
+}
+
+a:link, a:visited {
+    color : #10284e;
+}
+div.breadcrumbs {
+    background: darkred;
+    color : #10284e;
+    padding: 15px;
+}
+div.breadcrumbs a {
+    color : #333;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    background: #10284e;
+
+}
+div#user-tools {
+    float: right;
+    padding: 10px;
+    margin: 0 0 0 20px;
+    font-weight: 300;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: right;
+}

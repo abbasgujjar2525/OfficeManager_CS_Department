@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b7649313-7a02-4189-918f-b97cf03ddccd" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UebaJ7HNcDOsuMz1RkpIcVGO71" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zains\PycharmProjects\OfficeManager_CS_Department\OfficeManager_CS_Department\static\webfonts" />
+      <recent name="C:\Users\zains\PycharmProjects\OfficeManager_CS_Department\OfficeManager_CS_Department\static\js" />
+      <recent name="C:\Users\zains\PycharmProjects\OfficeManager_CS_Department\OfficeManager_CS_Department\static\img" />
+      <recent name="C:\Users\zains\PycharmProjects\OfficeManager_CS_Department\templates" />
+      <recent name="C:\Users\zains\PycharmProjects\OfficeManager_CS_Department\OfficeManager_CS_Department\static\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="OfficeManager_CS_Department" type="Python.DjangoServer" factoryName="Django server">
+      <module name="OfficeManager_CS_Department" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7649313-7a02-4189-918f-b97cf03ddccd" name="Default Changelist" comment="" />
+      <created>1575720069660</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575720069660</updated>
+      <workItem from="1575720074042" duration="31466000" />
+      <workItem from="1575921460399" duration="20459000" />
+      <workItem from="1576093814451" duration="177000" />
+      <workItem from="1576137531653" duration="7979000" />
+      <workItem from="1576289940174" duration="596000" />
+      <workItem from="1576313853870" duration="23194000" />
+      <workItem from="1576474144237" duration="2389000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="371" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575829164476">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="371" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.688@0.0.1280.688" timestamp="1575829164476" />
+    <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1575729359207">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.688@0.0.1280.688" timestamp="1575729359207" />
+    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup" timestamp="1575991525564">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup/0.0.1280.688@0.0.1280.688" timestamp="1575991525564" />
+  </component>
+</project>
