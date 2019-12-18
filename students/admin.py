@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Students
+from .models import Students,Courses,Rooms,Teachers,DateSheet
 from import_export.admin import ImportExportActionModelAdmin
 
 class StudentAdmin(ImportExportActionModelAdmin):
@@ -9,3 +9,7 @@ class StudentAdmin(ImportExportActionModelAdmin):
     search_fields = ('rollno', 'section', 'batch', 'username',)
 
 admin.site.register(Students, StudentAdmin)
+admin.site.register(Courses)
+admin.site.register(Rooms)
+admin.site.register(Teachers)
+admin.site.register(DateSheet)
