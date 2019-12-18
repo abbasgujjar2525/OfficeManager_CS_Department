@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7649313-7a02-4189-918f-b97cf03ddccd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OfficeManager_CS_Department/static/img/logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/partials/_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/_navbar.html" afterDir="false" />
     </list>
